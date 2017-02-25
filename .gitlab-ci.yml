@@ -1,4 +1,14 @@
 image: ruby:2.3
+test:
+  stage: test
+  script:
+  - bundle
+  - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
 pages:
   stage: deploy
   script:
