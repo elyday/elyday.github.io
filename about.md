@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hallo
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Dies ist mein persönlicher Blog. Hier wird ab und zu entweder informativer Scheiß oder tatsächlicher Scheiß gepostet. Ab und zu sogar tatsächliche informative Beiträge :-D
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Der Blog wurde mit Jekyll realisiert und wird mittels Github Pages gehostet. Der Source Code kann [hier](https://github.com/elyday/elyday.github.io) eingesehen werden.
+
+Mehr über mich und meine Person kann [hier](https://elyday.net) erfahren werden. Dann noch viel Spaß beim lesen :-D
