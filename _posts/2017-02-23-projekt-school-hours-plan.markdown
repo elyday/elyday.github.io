@@ -2,6 +2,7 @@
 layout: post
 title: "Projekt School Hours Plan"
 date: "2017-02-23 16:44:23 +0100"
+categories: shp
 ---
 Hi
 
