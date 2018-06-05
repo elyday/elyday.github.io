@@ -6,6 +6,9 @@ baseurl: ""
 url: "https://blog.eynet.xyz"
 twitter_username: urpgb
 github_username: elyday
+read_more: Weiterlesen
+env: production
+minify_html: false
 
 # Build settings
 markdown: kramdown
@@ -30,10 +33,6 @@ navigation:
     url: /categories
   - text: Tags
     url: /tags
-
-read_more: Weiterlesen
-env: production
-minify_html: false
 
 sticky: sticky
 sticky_count: 3
