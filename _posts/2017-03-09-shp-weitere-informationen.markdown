@@ -3,6 +3,7 @@ layout: post
 title: "SHP: Weitere Informationen"
 date: "2017-03-09 12:34:52 +0100"
 categories: shp web development
+description: Hier gibt es weitere Informationen über das Projekt
 ---
 Hi
 

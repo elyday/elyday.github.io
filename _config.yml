@@ -1,17 +1,9 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
 title: Private Blog
 email: admin@eynet.xyz
 description: > # this means to ignore newlines until "baseurl:"
   Ein kleiner Privater Blog für so Dinge zwischendurch.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.eynet.xyz" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://blog.eynet.xyz"
 twitter_username: urpgb
 github_username: elyday
 
@@ -19,11 +11,29 @@ github_username: elyday
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
-# Third-party services
-# just leave someone empty to disable it
-# google_analytics:
-disqus_shortname: blog-eynet-xyz
+sass:
+  style: compressed
 
-# used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+paginate: 12
+paginate_path: "/:num/"
+
+author_img: /img/author.jpg
+
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Categories
+    url: /categories
+  - text: Tags
+    url: /tags
+
+read_more: Weiterlesen
+env: production
+minify_html: false
+
+sticky: sticky
+sticky_count: 3
