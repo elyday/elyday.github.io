@@ -1,1 +1,5 @@
-$(document).ready(function(){$(".button-collapse").sideNav();$("img.lazy").lazyload();$('.slider').slider();});
+$(document).ready(function() {
+  $(".sidenav").sidenav();
+  $("img.lazy").lazyload();
+  $(".slider").slider();
+});

@@ -3,6 +3,7 @@ layout: base
 title: Categories
 permalink: /categories/
 ---
+
 <div class="row">
     {% for keypair in site.categories %}
     {% assign category = keypair | first%}

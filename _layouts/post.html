@@ -3,14 +3,14 @@ layout: base
 ---
 {% if page.cover %}
   <div class="row">
-    ![Cover](page.cover cover)
+    <img src="{{ page.cover }}" class="lazy cover">
   </div>
 {% endif %}
 
 <div class="row">
   <h2>{{ page.title }}</h2>
   <div class="valign-wrapper">
-    <i class="material-icons">access_time</i>&nbsp;&nbsp;{{ page.date | date: "%d.%m.%Y" }}
+    <i class="material-icons">access_time</i>&nbsp;&nbsp;{{ page.date | date: "%d.%m.%Y %H:%M" }} Uhr
   </div>
   {% for tag in page.tags %}
     {% if tag != site.sticky %}
