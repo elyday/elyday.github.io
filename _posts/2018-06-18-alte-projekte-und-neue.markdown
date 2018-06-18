@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alte Projekte und neue?"
-date: "2018-06-06 09:10:17 +0200"
+date: "2018-06-18 16:12:00 +0200"
 description: Was kommt als nächstes und wie sieht es mit dem Vergangenen aus?
 categories: web development future
 cover: /img/thum/clouds.jpg
@@ -31,3 +31,7 @@ Ich hatte dieses Projekt im darauffolgenden Sommer (2017) noch ein wenig weitere
 Zwischenzeitlich wollte ich den gesamten Code des Grades Management öffentlich auf GitHub zur Verfügung stellen, doch ich kam leider nie dazu und auch hätte ich wahrscheinlich irgendwann Lizenz Probleme aufgrund einiger verwendeter Bibliotheken bekommen.
 
 Ob ich dieses Projekt jemals wieder reaktivieren werde und gar auf Frontend/Backend Konzept umbauen werde? Wahrscheinlich niemals.
+
+Meine zukünftlichen Projekte werden wohl vorerst das Comment Project sein und meine weitere Mitarbeit am [World Gaming Club](https://wgc.li) sein. Parteimitarbeit ist derzeitig auch geplant, aber hier wohl überwiegend kommunalpolitisch und ein wenig im LV (IT und so etwas).
+
+Ich wünsch euch etwas ;)
