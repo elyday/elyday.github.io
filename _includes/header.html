@@ -2,13 +2,13 @@
     <nav>
         <div class="nav-wrapper deep-orange darken-1">
             <a href="/" class="brand-logo center"><i class="material-icons">cloud</i> {{site.title}}</a>
-            <div class="container"><a href="#" data-activates="nav-bar" class="button-collapse"><i class="material-icons">menu</i></a></div>
-            <ul class="right hide-on-med-and-down ">
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 {% for link in site.navigation %}
                 {% if page.url == link.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
                 {% endfor %}
             </ul>
-            <ul class="side-nav" id="nav-bar">
+            <ul class="sidenav" id="nav-mobile">
                 {% for link in site.navigation %}
                 {% if page.url == link.url %}<li class="active">{% else %}<li>{% endif %}<a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
                 {% endfor %}
