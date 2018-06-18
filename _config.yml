@@ -29,6 +29,8 @@ navigation:
     url: /
   - text: About
     url: /about
+  - text: Galery
+    url: /galery
   - text: Categories
     url: /categories
   - text: Tags
