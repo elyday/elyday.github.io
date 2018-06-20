@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<div class="row">
+    <h2>{{ page.title }}</h2>
+    {% assign image_files = site.static_files | where: "galery", page.galery %}
+    <div id="slider" class="slider">
+        <ul class="slides">
+            {% for item in image_files %}
+            <li>
+                <img src="{{ item.path }}">
+            </li>
+            {% endfor %}
+        </ul>
+        <div class="arrows prev" onclick="prevSlide()"></div>
+        <div class="arrows next" onclick="nextSlide()"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="divider"></div>
+</div>
