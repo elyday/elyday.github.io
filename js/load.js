@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $(".sidenav").sidenav();
   $("img.lazy").lazyload();
-  $(".slider").slider({
+  $("#slider").slider();
+  $("#slider2").slider({
     height: 650
   });
 });

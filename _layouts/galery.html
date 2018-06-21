@@ -3,9 +3,10 @@ layout: base
 ---
 
 <div class="row">
+    <a class="waves-effect waves-light btn" href="/galery/"><i class="material-icons">arrow_back</i></a>
     <h2>{{ page.title }}</h2>
     {% assign image_files = site.static_files | where: "galery", page.galery %}
-    <div id="slider" class="slider">
+    <div id="slider2" class="slider">
         <ul class="slides">
             {% for item in image_files %}
             <li>
@@ -19,5 +20,14 @@ layout: base
 </div>
 
 <div class="row">
-    <div class="divider"></div>
+    <div class="divider"></div><br>
+    <div class="valign-wrapper">
+        <i class="material-icons">people</i>&nbsp;&nbsp;{{ page.author }}
+    </div>
+    <div class="valign-wrapper">
+        <i class="material-icons">access_time</i>&nbsp;&nbsp;{{ page.date | date: "%d.%m.%Y" }}
+    </div>
+    <div class="valign-wrapper">
+        <i class="material-icons">lock</i>&nbsp;&nbsp;<a href="https://github.com/elyday/elyday.github.io/blob/master/LICENSE" target="_blank">MIT Lizenz</a>
+    </div>
 </div>
