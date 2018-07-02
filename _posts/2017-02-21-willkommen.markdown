@@ -5,7 +5,6 @@ date: "2017-02-21 10:55:42 +0100"
 type: post
 categories: blog
 description: Neuer Blog, die Zukunft?
-author: Lars Riße
 ---
 Hi
 
