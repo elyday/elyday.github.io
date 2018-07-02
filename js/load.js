@@ -8,11 +8,11 @@ $(document).ready(function() {
 });
 
 function nextSlide() {
-  var instance = M.Slider.getInstance(document.getElementById("slider"));
+  var instance = M.Slider.getInstance(document.getElementById("slider2"));
   instance.next();
 }
 
 function prevSlide() {
-  var instance = M.Slider.getInstance(document.getElementById("slider"));
+  var instance = M.Slider.getInstance(document.getElementById("slider2"));
   instance.prev();
 }

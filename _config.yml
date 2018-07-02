@@ -39,6 +39,9 @@ navigation:
 sticky: sticky
 sticky_count: 3
 
+plugins:
+  - jekyll-feedimage
+
 defaults:
   - scope:
       path: "img/galery/trauermarsch-viersen-15-06"

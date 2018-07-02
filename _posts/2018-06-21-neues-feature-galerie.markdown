@@ -4,8 +4,8 @@ title: "Neues Feature: Galerie"
 date: "2018-06-21 16:18:00 +0200"
 description: Es gibt da was neues ^_^
 categories: web development galery newfeature
-cover: /img/thum/galery.jpg
-thumbnail: /img/thum/galery.jpg
+image: /img/thum/galery.jpg
+author: Lars Riße
 tags: sticky
 ---
 
