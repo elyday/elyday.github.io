@@ -3,6 +3,7 @@ layout: post
 title: "Projekt School Hours Plan"
 date: "2017-02-23 16:44:23 +0100"
 description: Die ersten Informationen über das neue Projekt "School Hours Plan"
+author: Lars Riße
 categories: shp
 ---
 Hi
