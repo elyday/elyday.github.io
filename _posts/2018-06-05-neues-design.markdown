@@ -4,6 +4,7 @@ title: "Neues Design"
 date: "2018-06-05 16:45:21 +0200"
 description: Mehr Aktivität?
 categories: web blog development
+author: Lars Riße
 ---
 Heyho
 
