@@ -9,6 +9,7 @@ github_username: elyday
 read_more: Weiterlesen
 env: production
 minify_html: false
+timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
