@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.3"
+gem "jekyll", "3.8.4"
 gem 'tzinfo', '~> 1.2', '>= 1.2.5'
 gem 'tzinfo-data', '~> 1.2018', '>= 1.2018.5'
 
